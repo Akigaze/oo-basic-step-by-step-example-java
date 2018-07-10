@@ -35,8 +35,7 @@ public class Klass {
     public boolean equals(Object obj) {
         if (obj instanceof Klass){
             final Klass klz=(Klass)obj;
-            boolean flag= this.number==klz.number;
-            return flag;
+            return this.number==klz.number;
         }
         return false;
     }

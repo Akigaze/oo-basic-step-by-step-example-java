@@ -27,16 +27,6 @@ public class Student extends Person {
         return introduceStr;
     }
 
-//    @Override
-//    public boolean equals(Object obj) {
-//        if (obj instanceof Student){
-//            final Student stu=(Student)obj;
-//            if (this.getId()==stu.getId()){
-//                return true;
-//            }
-//        }
-//        return false;
-//    }
 
     private String classIntroduce(){
         return  (this.equals(klass.getLeader()))
